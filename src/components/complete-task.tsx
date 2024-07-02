@@ -4,6 +4,7 @@ import TaskItem from "./task-item";
 import Title from "./title";
 import styled from "styled-components";
 import { AllMessage as Text } from "../../App";
+import React from 'react';
 
 const Container = styled.div`
   max-width: 520px;
@@ -32,7 +33,7 @@ const CompletedTasks = () => {
 
       <TaskList>
         {taskList.map(
-          (task) => task.done && <TaskItem key={task.id} task={task} />
+          (task) => task.done && <TaskItem key={task.id} />
         )}
       </TaskList>
     </Container>

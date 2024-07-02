@@ -3,6 +3,7 @@ import { SyntheticEvent, useContext, useState } from "react";
 import { AppContext } from "../AppContext";
 import styled from "styled-components";
 import {AllMessage as Text } from "../../App"
+import React from 'react';
 
 type Props = {
   error: boolean;
@@ -142,7 +143,7 @@ const CreateNewTask = () => {
             onChange={handleChange}
             error={error}
           />
-          <AddButton error={error}>
+          <AddButton error={"error"}>
             <AddIcon />
           </AddButton>
         </InputContainer>

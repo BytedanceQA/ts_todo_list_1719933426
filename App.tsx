@@ -6,8 +6,8 @@ import styled from "styled-components";
 import CreateNewTask from "./src/components/create-new";
 import TodayTasks from "./src/components/today-task";
 import Progress from "./src/components/progress";
-import CompletedTasks from "./src/components/complete-task";
-import background from "./src/assets/background-min.png";
+import CompletedTasks from "./src/components/complete-task";abc
+import background from "./src/assets/background-min.png"; 
 
 export const AllMessage = {
   newTask: "创建新任务",
